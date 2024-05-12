@@ -14,12 +14,12 @@
   - [Create the SQL view](#Create-the-SQL-view)
 - [Testing](#Testing)
   - [Data Quality Test](#Data-Quality-Test)
-- [Visualization](Visualization)
-  - [Results](Results)
-  - [Dax Measure](Dax-Measure)
-- [Analysis](Analysis)
-  - [Findings](Findings)
-- [Conclusion](Conclusion)
+- [Visualization](#Visualization)
+  - [Results](#Results)
+  - [Dax Measure](#Dax-Measure)
+- [Analysis](#Analysis)
+  - [Findings](#Findings)
+- [Conclusion](#Conclusion)
 
 ## Objectives
 
