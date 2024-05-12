@@ -373,7 +373,7 @@ Thank you for taking the time to explore this project! I'm thrilled to share the
 
 Moving forward, I'm excited about the potential for future enhancements and improvements to futher benefit my clients.
 
-If you have any questions, inquiries, or feedback, please don't hesitate to reach out to me at [Contact-me](https://www.tomiwaprofficial@gmail.com).
+If you have any questions, inquiries, or feedback, please don't hesitate to reach out to me at [Contact me](https://www.tomiwaprofficial@gmail.com).
 
 Once again,thank you for your interest in my project. I am open to data analyst roles.[Refer me](https://www.linkedin.com/in/tomiwapro/)
 
