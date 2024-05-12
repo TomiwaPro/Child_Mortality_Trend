@@ -314,4 +314,7 @@ GROUP BY
 	country
 HAVING COUNT(*) > 10;
 ```
-![Duplicate Count Check](Assets/Images/Duplicate Count Check.png)
+
+![Duplicate Count Check](https://github.com/TomiwaPro/Child_Mortality_Trend/assets/160256704/f3740aea-468c-4b03-b747-d46b8932b8fc)
+
+
