@@ -314,3 +314,4 @@ GROUP BY
 	country
 HAVING COUNT(*) > 10;
 ```
+![Duplicate Count Check](Assets/Images/Duplicate Count Check.png)
