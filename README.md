@@ -8,12 +8,12 @@
 - [Design](#Design)
   - [Dashboard-components-required](#Dashboard-components-required)
   - [Tools](#Tools)
-- [Development](Development)
-  - [Data exploration](Data-exploration)
-  - [Transform the data](Transform-the-data)
-  - [Create the SQL view](Create-the-SQL-view)
-- [Testing](Testing)
-  - [Data Quality Test](Data-Quality-Test)
+- [Development](#Development)
+  - [Data exploration](#Data-exploration)
+  - [Transform the data](#Transform-the-data)
+  - [Create the SQL view](#Create-the-SQL-view)
+- [Testing](#Testing)
+  - [Data Quality Test](#Data-Quality-Test)
 ## Objectives
 
 - Trend Analysis
