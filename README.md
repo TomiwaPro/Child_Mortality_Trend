@@ -14,6 +14,12 @@
   - [Create the SQL view](#Create-the-SQL-view)
 - [Testing](#Testing)
   - [Data Quality Test](#Data-Quality-Test)
+- [Visualization](Visualization)
+  - [Results](Results)
+  - [Dax Measure](Dax-Measure)
+-[Analysis](Analysis)
+  -[Findings](Findings) 
+
 ## Objectives
 
 - Trend Analysis
@@ -331,4 +337,44 @@ HAVING COUNT(*) > 10;
 ```
 ![Duplicate Count Check](https://github.com/TomiwaPro/Child_Mortality_Trend/assets/160256704/f3740aea-468c-4b03-b747-d46b8932b8fc)
 
+## Visualization
 
+
+### Results
+
+[Gif of power BI Dashboard](https://github.com/TomiwaPro/Child_Mortality_Trend/assets/160256704/6bb69cc2-750c-4263-afb3-c293c9b5a3cd)
+
+### Dax Measure
+
+#### Total Number of death
+```sql
+Total Number of death =
+SUMX(view_causes_of_death_in_children_under_5, view_causes_of_death_in_children_under_5[Diarrheal_diseases] +
+ view_causes_of_death_in_children_under_5[HIV_AIDS] + view_causes_of_death_in_children_under_5[Malaria] +
+view_causes_of_death_in_children_under_5[Measles] + view_causes_of_death_in_children_under_5[Meningitis] +
+view_causes_of_death_in_children_under_5[Neoplasms] + view_causes_of_death_in_children_under_5[Nutritional_deficiencies] +
+ view_causes_of_death_in_children_under_5[Syphilis] + view_causes_of_death_in_children_under_5[Tuberculosis] +
+view_causes_of_death_in_children_under_5[Whooping_cough])
+```
+## Analysis
+
+### Findings
+- Total Number of death is 19.27Millions.
+- 2010 is the Year with the highest death rate of 2.46Millions.
+- The Total number of death per year decreases as the year increase, this shows that the continents gets better in terms of medical care for kids under 5 years old.
+- Africa has the highest number of death over the year range, which makes it the continent with the poorest medical care for kids under 5 years old from this analysis.
+- Nigeria has the highest number of death over the year range, which makes it the country with the poorest medical care for kids under 5 years old from this analysis.
+- For the causes of death, Diarrheal diseases has the highest death count over the year range, which shows that WHO, and the healthcare bodies of each continent and Country needs to take the diarrheal diseases treatment and prevention more seriously and other causes of death.
+
+## Conclusion
+
+Thank you for taking the time to explore this project! I'm thrilled to share the achievements and outcomes that I've accomplished.
+
+Moving forward, I'm excited about the potential for future enhancements and improvements to futher benefit my clients.
+
+If you have any questions, inquiries, or feedback, please don't hesitate to reach out to me at [Contact me](tomiwaprofficial@gmail.com).
+
+Once again,thank you for your interest in my project. I am open to data analyst roles.[Refer me](https://www.linkedin.com/in/tomiwapro/)
+
+Best regards,
+[Ayotomiwa Alao]
