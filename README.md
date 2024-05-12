@@ -17,8 +17,9 @@
 - [Visualization](Visualization)
   - [Results](Results)
   - [Dax Measure](Dax-Measure)
--[Analysis](Analysis)
-  -[Findings](Findings) 
+- [Analysis](Analysis)
+  - [Findings](Findings)
+- [Conclusion](Conclusion)
 
 ## Objectives
 
