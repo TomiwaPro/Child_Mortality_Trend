@@ -290,8 +290,7 @@ WHERE TABLE_NAME = 'view_causes_of_death_in_children_under_5'
 SELECT MIN(Year) AS min_year, MAX(Year) AS max_year
 FROM view_causes_of_death_in_children_under_5;
 ```
-
-
+![Year Range Check](https://github.com/TomiwaPro/Child_Mortality_Trend/assets/160256704/6c555c4d-f9be-4772-b2c7-22522f775ff1)
 
 ##### Data Type Check
 ```sql
@@ -310,7 +309,6 @@ WHERE
 ```
 ![Data Type Check](https://github.com/TomiwaPro/Child_Mortality_Trend/assets/160256704/14dd6a8e-1e45-4def-a456-0c78c8f62402)
 
-
 ##### Duplicate Count Check
 ```sql
 --Duplicate Count Check(10 years is to be analysed so the Country count should not be more than 10)
@@ -322,7 +320,6 @@ GROUP BY
 	country
 HAVING COUNT(*) > 10;
 ```
-
 ![Duplicate Count Check](https://github.com/TomiwaPro/Child_Mortality_Trend/assets/160256704/f3740aea-468c-4b03-b747-d46b8932b8fc)
 
 
