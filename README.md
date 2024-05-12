@@ -281,6 +281,8 @@ SELECT COUNT (*) AS column_count
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'view_causes_of_death_in_children_under_5'
 ```
+![Column Count Check](https://github.com/TomiwaPro/Child_Mortality_Trend/assets/160256704/627343d9-2a23-4c2a-8104-b96acd9523e1)
+
 ##### Year range check
 ```sql
 --The Year range check
@@ -288,6 +290,9 @@ WHERE TABLE_NAME = 'view_causes_of_death_in_children_under_5'
 SELECT MIN(Year) AS min_year, MAX(Year) AS max_year
 FROM view_causes_of_death_in_children_under_5;
 ```
+
+
+
 ##### Data Type Check
 ```sql
 --Data Type Check
@@ -303,6 +308,9 @@ WHERE
 
 --The continent column datatype is 'varchar', which is very much okay.
 ```
+![Data Type Check](https://github.com/TomiwaPro/Child_Mortality_Trend/assets/160256704/14dd6a8e-1e45-4def-a456-0c78c8f62402)
+
+
 ##### Duplicate Count Check
 ```sql
 --Duplicate Count Check(10 years is to be analysed so the Country count should not be more than 10)
