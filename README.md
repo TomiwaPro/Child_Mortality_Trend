@@ -5,7 +5,15 @@
 - [Objective](#objectives)
 - [Data Source](#data-source)
 - [Stages](#Stages)
-
+- [Design](#Design)
+ - [Dashboard-components-required](#Dashboard-components-required)
+ - [Tools](#Tools)
+- [Development](Development)
+ - [Data exploration](Data-exploration)
+ - [Transform the data](Transform-the-data)
+ - [Create the SQL view](Create-the-SQL-view)
+- [Testing](Testing)
+ - [Data Quality Test](Data-Quality-Test)
 ## Objectives
 
 - Trend Analysis
@@ -66,7 +74,7 @@ The data used in this project, titled 'Child_Mortality_Trend(Ages 0-5, 2010): Co
 5. Visualize the data in power BI
 6. Generate the findings based on the insights
 
-### Data exploration notes
+### Data exploration 
 #### Observations
   1. There are only 13 columns that contain the data we need for this analysis.
   2. On country column, there is 'World' which is not needed because is not a country.
@@ -266,6 +274,7 @@ WHERE Year >= '2010' AND Year <= '2019'
     AND code <> '0'
 ```
 ## Testing
+- Here are the data quality tests conducted:
 #### Data Quality Test
 After creating the SQL view, the data will be tested to check if they are in the right datatype.
 1. The columns should be 14.(Verified)
