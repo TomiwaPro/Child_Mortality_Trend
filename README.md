@@ -41,7 +41,7 @@ The yearly variations in the number of deaths for each cause and highlight any t
 
 ## Data source
 
-The data used in this project, titled 'Child_Mortality_Trend(Ages 0-5, 2010): Continent, Country and 10 Causes of Death' is sourced from kaggle (an Excel extract). [see here to find it.](https://www.kaggle.com/datasets/willianoliveiragibin/diarrheal-diseases) This dataset exclusively comprises information regarding the causes of death among children under 5 years old , detailing the number of deaths recorded per cause, per continent, per contry and per year over consecutive years(1990 to 2019).
+The data used in this project, titled 'Child_Mortality_Trend(Ages 0-5, 2010-2019): Continent, Country and 10 Causes of Death' is sourced from kaggle (an Excel extract). [see here to find it.](https://www.kaggle.com/datasets/willianoliveiragibin/diarrheal-diseases) This dataset exclusively comprises information regarding the causes of death among children under 5 years old , detailing the number of deaths recorded per cause, per continent, per contry and per year over consecutive years(1990 to 2019).
 
 ## Stages
 
